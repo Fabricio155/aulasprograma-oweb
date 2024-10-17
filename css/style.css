@@ -1,0 +1,13 @@
+img{
+    width: 100%, ;
+    border-radius: 13px;
+}
+body{
+    background-color: aqua;
+}
+.oculta{
+    display: none;
+}
+.exibir{
+    display: block;
+}

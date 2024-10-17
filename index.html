@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+    <title>VETERINARIO</title>
+</head>
+<body>
+    <img src="img/imagem.jpg" >
+ <h1>VETERINARIO</h1>
+ <form >
+<P> VALOR DA VACINA
+   <input type="number" id="invalor" required autofocus >
+   
+</P>
+<p>
+    POSSUI CONVÊNIO
+  <input type="radio" name="produto" id="rbsim">sim
+  <input type="radio" name="produto" id="rbnao" checked>não
+</p>
+<p class="oculta" id="pconvenio"> CONVÊNIO
+    <select id="selconvenio">
+        <option value="AMIGO">AMIGO</option>
+        <option value="SAÚDE">SAÚDE ANIMAL</option>
+
+    </select>
+
+</p>
+    <input type="submit" value="CALCULAR DESCONTO">
+ </form>
+ <H3 id="outdesconto"></H3>
+ <H3 id="outpagar"></H3>
+ <script src="js/script.js"></script>
+
+   
+</body>
+</html>
